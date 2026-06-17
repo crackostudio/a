@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #050505;
+  color: white;
+   font-family: Inter, system-ui, sans-serif;
+}
+
+/* ====== ESTILO CRACKO (IMPORTANTE) ====== */
+
+.glass {
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.neon {
+  color: #00e5ff;
+  text-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: rgba(0, 229, 255, 0.6);
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px rgba(0, 229, 255, 0.08);
+}
+
+.section {
+  padding: 120px 24px;
+  max-width: 1200px;
+  margin: auto;
+}
